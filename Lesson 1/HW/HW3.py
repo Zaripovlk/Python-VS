@@ -13,3 +13,24 @@ res2 = p//100 + ((p//10)%10)+ p%10
 if res1==res2:
     print ("yes")
 else: print ("no")
+
+n1 = n // 10**5
+n2 = n // 10**4 % 10
+n3 = n // 10**3 % 10
+sum_first_half = n1 + n2 + n3
+
+# # Вычисляем сумму последних трех цифр
+# sum_second_half = n // 100 % 10 + n // 10 % 10 + n % 10
+
+# # Проверяем условие на счастливый билет
+# if sum_first_half == sum_second_half:
+#     print("yes")
+# else:
+#     print("no")
+    
+    
+# n= str(n)
+# if int(n[0]) + int(n[1]) + int(n[2]) == int(n[3]) + int(n[4]) + int(n[5]):
+#     print("yes")
+# else:
+#     print("no")

@@ -13,3 +13,18 @@ p = (n//3)//2
 c =(n//3)//2
 k = n - (p+c)
 print(p , k  , c )
+
+
+# petya = n // 6
+# serezha = petya
+# katya = 2 * petya * serezha
+# # Выведите количество журавликов, сделанных Петей, Катей и Сережей
+
+# print(petya, katya, serezha)
+
+# x = n // 6
+# print(f'{x} {4 * x} {x}')
+
+# p = (n//3)//2
+# c = p
+# k = n - (p+c)
