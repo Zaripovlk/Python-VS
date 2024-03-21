@@ -14,3 +14,12 @@ while n > 0:
     n -= 1
 
 print("Факториал:", fac)
+
+# number = int(input("Введите число: "))
+# factorial = 1
+# while number >= 1:
+#     print(number)
+#     factorial *= number
+#     print(f"Приумножили факториал на {number}. Получилось {factorial}")
+#     number -= 1
+# print(factorial)
