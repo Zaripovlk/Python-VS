@@ -21,3 +21,5 @@
 #         # Добавляем значение в множество
 #         dict_2.add(value.strip())
 # print(dict_2) второе решение
+
+# https://tproger.ru/explain/python-dictionaries словари почитать
