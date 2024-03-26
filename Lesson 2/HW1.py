@@ -6,17 +6,19 @@
 # Выходные данные:
 # Программа должна вывести одно целое число - минимальное количество монеток, которые нужно перевернуть.
 
-N = int(input("Введите кол-во монеток:"))
+coins = [0, 1, 0, 1, 1, 0]
 
 max_counter = 0
-counter = 0
-
-for _ in range(N): # повторять N раз
-    temp = int((input("0 или 1: ")))
-    if temp > 0:
-        counter +=1
+counter1 = 0
+counter0 = 0
+for i in range(0,len(coins)): # повторять N раз
+    if coins[i] > 0:
+        counter1 +=1
     else:
-        counter = 0
-    if counter > max_counter:
-        max_counter = counter
+        counter0 +=1
+if counter0 > counter1:
+        max_counter = counter1
+else:
+    max_counter = counter0
+
 print(max_counter)
