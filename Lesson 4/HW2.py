@@ -30,6 +30,5 @@ result_count.append(arr[0]+arr[-1]+ arr[-2])
 for num in result_count:
     if num > max_num:
         max_num = num
-print(result_count)
 print(max_num)
   
