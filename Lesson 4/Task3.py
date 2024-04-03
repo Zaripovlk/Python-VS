@@ -31,3 +31,38 @@ print (High)
 # max_num = max(b)
 # print(max_num)
 
+# Задача 26:
+
+def degree(a, b, c=1):
+    if b==0:
+        return c
+    c=c*a
+    return degree(a, b-1, c)
+
+print(degree(2, 3))
+
+
+
+# # Задача 27:
+
+# # import math
+
+# def sign(b):
+#    if (b>0):
+#       return 1
+#    elif (b<0):
+#       return -1
+#    else:
+#       return 0
+
+
+# def sum(a, b):
+#     sign_b=sign(b)
+#    # sign_b = int(math.copysign(1, b))
+#     if b==0:
+#         return a
+#     a+=sign_b
+#     b-=sign_b
+#     return sum(a, b)
+
+# print(sum(2,2))
