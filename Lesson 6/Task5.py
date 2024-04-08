@@ -16,30 +16,30 @@
 # 300      220 284
 
 # первый вариант
-# number = 10000
+number = 10000
 
 
-# def friendlyNumber(num):
-#         out=0
-#         for div in range(1, int(num/2+1)):
-#             if num%div==0:
-#                 out+=div
-#         return out
+def friendlyNumber(num):
+        out=0
+        for div in range(1, int(num/2+1)):
+            if num%div==0:
+                out+=div
+        return out
 
 
-# for current_num in range (2, number):
-#     m=friendlyNumber(current_num)
-#     n=friendlyNumber(m)     
-#     if n==current_num and n <m:
-#         print(n,' ',m)
+for current_num in range (2, number):
+    m=friendlyNumber(current_num)
+    n=friendlyNumber(m)     
+    if n==current_num and n <m:
+        print(n,' ',m)
 
 # второй вариант
-def sum_div(n):
-    res = 0
-    for i in range(1, n/2):
-        if n % i == 0:
-            res += i
-    return res
+# def sum_div(n):
+#     res = 0
+#     for i in range(1, n/2):
+#         if n % i == 0:
+#             res += i
+#     return res
 
 # третье решение
 
@@ -67,3 +67,4 @@ def sum_div(n):
 # for i in range(1, k):
 #     if div_sum[i] < k and i != div_sum[i] and div_sum[div_sum[i]] == i:
 #         print(i, div_sum[i])
+
